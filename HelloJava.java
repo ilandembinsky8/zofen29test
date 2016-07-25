@@ -20,7 +20,7 @@ public class HelloJava
 }
 class HelloComponent extends JComponent {
   public void paintComponent( java.awt.Graphics g ) {
-    g.drawString( "Hello, World!", 10, 10 );
+    g.drawString( "Hello, World!", 10, 11 );
   }
 }
 

@@ -11,7 +11,7 @@ import javax.swing.*;
 public class HelloJava 
 {
   public static void main( String[] args ) {
-    JFrame frame = new JFrame( "FirstApp" );
+    JFrame frame = new JFrame( "SecondApp" );
     frame.add( new HelloComponent() );
     frame.setSize( 400, 300 );
     
@@ -20,7 +20,7 @@ public class HelloJava
 }
 class HelloComponent extends JComponent {
   public void paintComponent( java.awt.Graphics g ) {
-    g.drawString( "Hello, World!", 10, 11 );
+    g.drawString( "Hello, oh my World!", 10, 11 );
   }
 }
 
